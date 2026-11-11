@@ -1,0 +1,451 @@
+{
+ "name": "PSX Horror Props Vol.1",
+ "axes": "Y up, front faces +Z, 1 unit = 1 m. Bounds below are in engine axes.",
+ "pivots": {
+  "floor": {
+   "zmin": 0.0,
+   "xc": 0.0,
+   "yc": 0.0
+  },
+  "wall": {
+   "zmin": 0.0,
+   "xc": 0.0,
+   "ymax": 0.0
+  },
+  "ceiling": {
+   "zmax": 0.0,
+   "xc": 0.0,
+   "yc": 0.0
+  },
+  "hinge": {
+   "zmin": 0.0,
+   "xmin": 0.0,
+   "yc": 0.0
+  },
+  "corner": {
+   "zmax": 0.0,
+   "xmin": 0.0,
+   "ymax": 0.0
+  }
+ },
+ "categories": [
+  "Graveyard",
+  "Furniture",
+  "Small Props",
+  "Horror",
+  "Structure"
+ ],
+ "props": {
+  "PSXH_Skull": {
+   "id": "Skull",
+   "category": "Graveyard",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Human skull",
+   "bounds_min": [
+    -0.08,
+    0.0,
+    -0.0951
+   ],
+   "bounds_max": [
+    0.08,
+    0.192,
+    0.0951
+   ],
+   "size": [
+    0.16,
+    0.192,
+    0.1902
+   ],
+   "triangles": 96,
+   "lights": []
+  },
+  "PSXH_Chair": {
+   "id": "Chair",
+   "category": "Furniture",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Spindle back wooden chair",
+   "bounds_min": [
+    -0.22,
+    0.0,
+    -0.21
+   ],
+   "bounds_max": [
+    0.22,
+    0.95,
+    0.21
+   ],
+   "size": [
+    0.44,
+    0.95,
+    0.42
+   ],
+   "triangles": 144,
+   "lights": []
+  },
+  "PSXH_Table_Round": {
+   "id": "Table_Round",
+   "category": "Furniture",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Round pedestal table",
+   "bounds_min": [
+    -0.48,
+    0.0,
+    -0.48
+   ],
+   "bounds_max": [
+    0.48,
+    0.76,
+    0.48
+   ],
+   "size": [
+    0.96,
+    0.76,
+    0.96
+   ],
+   "triangles": 156,
+   "lights": []
+  },
+  "PSXH_Nightstand": {
+   "id": "Nightstand",
+   "category": "Furniture",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Bedside cabinet with drawer and open shelf",
+   "bounds_min": [
+    -0.23,
+    0.0,
+    -0.2102
+   ],
+   "bounds_max": [
+    0.23,
+    0.66,
+    0.2102
+   ],
+   "size": [
+    0.46,
+    0.66,
+    0.4204
+   ],
+   "triangles": 104,
+   "lights": []
+  },
+  "PSXH_Frame_Portrait_A": {
+   "id": "Frame_Portrait_A",
+   "category": "Furniture",
+   "pivot": "wall",
+   "collider": "none",
+   "free": true,
+   "note": "Portrait of a gentleman, dark gilt frame",
+   "bounds_min": [
+    -0.25,
+    0.0,
+    -0.0
+   ],
+   "bounds_max": [
+    0.25,
+    0.64,
+    0.05
+   ],
+   "size": [
+    0.5,
+    0.64,
+    0.05
+   ],
+   "triangles": 60,
+   "lights": []
+  },
+  "PSXH_Clock_Wall": {
+   "id": "Clock_Wall",
+   "category": "Furniture",
+   "pivot": "wall",
+   "collider": "none",
+   "free": true,
+   "note": "Round wall clock",
+   "bounds_min": [
+    -0.217,
+    0.0,
+    -0.0
+   ],
+   "bounds_max": [
+    0.217,
+    0.434,
+    0.0704
+   ],
+   "size": [
+    0.434,
+    0.434,
+    0.0704
+   ],
+   "triangles": 116,
+   "lights": []
+  },
+  "PSXH_Candle_Short": {
+   "id": "Candle_Short",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "none",
+   "free": true,
+   "note": "Short burning candle in a wax puddle",
+   "bounds_min": [
+    -0.05,
+    0.0,
+    -0.05
+   ],
+   "bounds_max": [
+    0.05,
+    0.1348,
+    0.05
+   ],
+   "size": [
+    0.1,
+    0.1348,
+    0.1
+   ],
+   "triangles": 122,
+   "lights": [
+    {
+     "kind": "flame",
+     "position": [
+      0.0,
+      0.1026,
+      -0.0
+     ]
+    }
+   ]
+  },
+  "PSXH_Candlestick": {
+   "id": "Candlestick",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "none",
+   "free": true,
+   "note": "Brass candlestick with a lit candle",
+   "bounds_min": [
+    -0.06,
+    0.0,
+    -0.06
+   ],
+   "bounds_max": [
+    0.06,
+    0.348,
+    0.06
+   ],
+   "size": [
+    0.12,
+    0.348,
+    0.12
+   ],
+   "triangles": 188,
+   "lights": [
+    {
+     "kind": "flame",
+     "position": [
+      0.0,
+      0.3236,
+      -0.0
+     ]
+    }
+   ]
+  },
+  "PSXH_Lantern": {
+   "id": "Lantern",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Iron storm lantern with a glowing glass box",
+   "bounds_min": [
+    -0.0813,
+    0.0,
+    -0.0813
+   ],
+   "bounds_max": [
+    0.0813,
+    0.377,
+    0.0813
+   ],
+   "size": [
+    0.1626,
+    0.377,
+    0.1626
+   ],
+   "triangles": 120,
+   "lights": [
+    {
+     "kind": "flame",
+     "position": [
+      0.0,
+      0.125,
+      -0.0
+     ]
+    }
+   ]
+  },
+  "PSXH_OilLamp": {
+   "id": "OilLamp",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Kerosene lamp with amber chimney",
+   "bounds_min": [
+    -0.093,
+    0.0,
+    -0.08
+   ],
+   "bounds_max": [
+    0.093,
+    0.44,
+    0.08
+   ],
+   "size": [
+    0.186,
+    0.44,
+    0.16
+   ],
+   "triangles": 212,
+   "lights": [
+    {
+     "kind": "flame",
+     "position": [
+      -0.013,
+      0.3072,
+      -0.0
+     ]
+    }
+   ]
+  },
+  "PSXH_Books_Stack": {
+   "id": "Books_Stack",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Stack of old books",
+   "bounds_min": [
+    -0.1456,
+    0.0,
+    -0.1133
+   ],
+   "bounds_max": [
+    0.1456,
+    0.2639,
+    0.1133
+   ],
+   "size": [
+    0.2912,
+    0.2639,
+    0.2266
+   ],
+   "triangles": 72,
+   "lights": []
+  },
+  "PSXH_Bottle_Wine": {
+   "id": "Bottle_Wine",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Dark green wine bottle",
+   "bounds_min": [
+    -0.038,
+    0.0,
+    -0.039
+   ],
+   "bounds_max": [
+    0.038,
+    0.325,
+    0.039
+   ],
+   "size": [
+    0.076,
+    0.325,
+    0.078
+   ],
+   "triangles": 82,
+   "lights": []
+  },
+  "PSXH_Crate": {
+   "id": "Crate",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Wooden crate",
+   "bounds_min": [
+    -0.3,
+    0.0,
+    -0.3
+   ],
+   "bounds_max": [
+    0.3,
+    0.6,
+    0.3
+   ],
+   "size": [
+    0.6,
+    0.6,
+    0.6
+   ],
+   "triangles": 36,
+   "lights": []
+  },
+  "PSXH_Barrel": {
+   "id": "Barrel",
+   "category": "Small Props",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Oak barrel with iron hoops",
+   "bounds_min": [
+    -0.31,
+    0.0,
+    -0.2948
+   ],
+   "bounds_max": [
+    0.31,
+    0.9,
+    0.2948
+   ],
+   "size": [
+    0.62,
+    0.9,
+    0.5896
+   ],
+   "triangles": 336,
+   "lights": []
+  },
+  "PSXH_Doll_Porcelain": {
+   "id": "Doll_Porcelain",
+   "category": "Horror",
+   "pivot": "floor",
+   "collider": "box",
+   "free": true,
+   "note": "Sitting porcelain doll with a cracked face",
+   "bounds_min": [
+    -0.11,
+    0.0,
+    -0.1675
+   ],
+   "bounds_max": [
+    0.11,
+    0.357,
+    0.1675
+   ],
+   "size": [
+    0.22,
+    0.357,
+    0.335
+   ],
+   "triangles": 310,
+   "lights": []
+  }
+ }
+}

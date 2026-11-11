@@ -1,0 +1,25 @@
+PSX Horror Props Vol.1 - License
+Publisher: Lime730
+
+By purchasing or downloading this asset pack (including the free sample) you receive a non-exclusive,
+worldwide, perpetual license to use it under the following terms.
+
+ALLOWED
+- Use the models, textures, shaders, scripts and scenes in unlimited personal and commercial projects
+  (games, apps, films, videos, trailers, renders) on any platform.
+- Modify, recolor, combine and adapt the assets as needed for those projects.
+- Ship the assets as part of your compiled / packaged project, where end users cannot easily extract them
+  as standalone source files.
+
+NOT ALLOWED
+- Reselling, redistributing, sublicensing, sharing or giving away the assets themselves, original or
+  modified, as standalone files or as part of another asset pack, template, kit, library or tool,
+  whether paid or free.
+- Uploading the source files to public repositories, marketplaces or asset sharing sites.
+
+Credit is appreciated but not required.
+
+AI DISCLOSURE
+Models, textures, shaders and scripts were created with the help of generative AI tools. The publisher directed the design and reviewed every asset.
+
+THE ASSETS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
