@@ -19,4 +19,17 @@ public class TransitionScript : MonoBehaviour
     {
         SceneManager.LoadScene("Playground");
     }
+
+    public void LoadLolaTransition()
+    {
+        SceneManager.LoadScene(
+             "IntroCutscene",
+             LoadSceneMode.Additive
+         );
+    }
+
+    public void ReturnToGame()
+    {
+        SceneManager.UnloadSceneAsync("LolaCutscene");
+    }
 }
